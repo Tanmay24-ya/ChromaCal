@@ -48,7 +48,7 @@ stateDiagram-v2
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/Tanmay24-ya/LumaFlow.git
+   git clone https://github.com/Tanmay24-ya/ChromaCal.git
    ```
 
 2. **Install dependencies**
