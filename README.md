@@ -1,10 +1,10 @@
-# LumaFlow 🌌
+# ChromaCal 🌌
 
 **Interactive. Precision Engineering for your Timeline.**
 
-LumaFlow is a premium, high-performance Timeline Intelligence System and calendar interface built by **Tanmay**. It transcends standard flat UIs by recreating a tactile, physical wall calendar aesthetic powered by a rigorous state machine and natively fluid animations.
+ChromaCal is a premium, high-performance Timeline Intelligence System and calendar interface built by **Tanmay**. It transcends standard flat UIs by recreating a tactile, physical wall calendar aesthetic powered by a rigorous state machine and natively fluid animations.
 
-![LumaFlow Hero](./public/hero-preview.png)
+![ChromaCal Hero](./public/hero-preview.png)
 
 ## 🚀 Features
 
@@ -17,7 +17,7 @@ LumaFlow is a premium, high-performance Timeline Intelligence System and calenda
 
 ## 🧠 System State Engine
 
-LumaFlow is driven by a deterministic state-machine residing in `useCalendar.ts` that safely manages the timeline interaction:
+ChromaCal is driven by a deterministic state-machine residing in `useCalendar.ts` that safely manages the timeline interaction:
 
 ```mermaid
 stateDiagram-v2
@@ -42,7 +42,7 @@ stateDiagram-v2
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS v4 & Native Vanilla CSS (`globals.css`)
 - **Animation**: Framer Motion
-- **Persistence**: LocalStorage (`lumaflow-core-v1`)
+- **Persistence**: LocalStorage (`lumaflow-core-v1` for backward compatibility)
 
 ## 📦 Local Development
 

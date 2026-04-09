@@ -7,7 +7,7 @@ import { MONTH_DATA } from "@/lib/constants";
 import { generateCalendarDays, formatDateKey } from "@/lib/utils";
 import { NoteCategory, EntryType, Frequency } from "@/lib/types";
 
-export default function LumaFlow() {
+export default function ChromaCal() {
   const cal = useCalendar();
   const days = generateCalendarDays(cal.currentYear, cal.currentMonth);
   const appRef = useRef<HTMLDivElement>(null);
@@ -89,7 +89,7 @@ export default function LumaFlow() {
           <div style={{ background: 'var(--accent-color)', color: 'var(--bg-dark)', borderRadius: 8, width: 32, height: 32, display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 0 20px var(--accent-glow)' }}>
             <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
           </div>
-          <span style={{ fontSize: '1.25rem', fontWeight: 800, fontFamily: 'Clash Display', letterSpacing: '-0.02em', color: 'var(--text-main)' }}>LumaFlow</span>
+          <span style={{ fontSize: '1.25rem', fontWeight: 800, fontFamily: 'Clash Display', letterSpacing: '-0.02em', color: 'var(--text-main)' }}>ChromaCal</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
           <button onClick={() => setIsDark(!isDark)} style={{ background: 'var(--bg-card)', border: '1px solid var(--border-glass)', color: 'var(--text-main)', width: 40, height: 40, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer' }}>
@@ -102,7 +102,7 @@ export default function LumaFlow() {
       {/* ─── LANDING PAGE HERO ─── */}
       <section className="snap-section landing-hero" style={{ paddingTop: 70, '--accent-color': '#0066FF', '--accent-light': 'rgba(0,102,255,0.1)' } as any}>
         <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: "easeOut" }} style={{ position: 'relative', zIndex: 10 }}>
-          <h1 className="hero-title">LUMAFLOW.<br /><span>INTERACTIVE.</span></h1>
+          <h1 className="hero-title">CHROMACAL.<br /><span>INTERACTIVE.</span></h1>
           <p className="hero-subtitle">PRECISION ENGINEERING FOR YOUR TIMELINE.<br />DRAG. DOCUMENT. ANALYZE. REPEAT.</p>
           <div className="hero-buttons" style={{ justifyContent: 'center' }}>
             <button className="btn-primary" onClick={scrollToApp}>
@@ -395,7 +395,7 @@ export default function LumaFlow() {
               <div style={{ background: 'var(--accent-color)', color: '#fff', borderRadius: 8, width: 28, height: 28, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
               </div>
-              <span style={{ fontSize: '1.25rem', fontWeight: 800, fontFamily: 'Clash Display', color: 'var(--text-main)' }}>LumaFlow</span>
+              <span style={{ fontSize: '1.25rem', fontWeight: 800, fontFamily: 'Clash Display', color: 'var(--text-main)' }}>ChromaCal</span>
             </div>
             <p style={{ color: "var(--text-muted)", fontSize: "0.9rem", maxWidth: 300, lineHeight: 1.6 }}>A premium, physical calendar experience designed for digital focus. Recreating the timeless wall calendar aesthetic in a modern Next.js app.</p>
             <p style={{ color: "var(--text-muted)", fontSize: "0.9rem", marginTop: 24, fontWeight: 700 }}>Built by Tanmay.</p>
@@ -407,7 +407,7 @@ export default function LumaFlow() {
           </div>
         </div>
         <div style={{ maxWidth: 1400, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 80, borderTop: "1px solid var(--border-glass)", paddingTop: 32 }}>
-          <p style={{ color: "var(--text-subtle)", fontSize: "0.75rem", fontWeight: 700 }}>© 2026 LUMAFLOW. BUILT BY TANMAY.</p>
+          <p style={{ color: "var(--text-subtle)", fontSize: "0.75rem", fontWeight: 700 }}>© 2026 CHROMACAL. BUILT BY TANMAY.</p>
           <div style={{ display: "flex", gap: 24 }}>
             <a href="#" style={{ color: "var(--text-subtle)", textDecoration: "none", fontSize: "0.75rem", fontWeight: 700 }}>PRIVACY POLICY</a>
             <a href="#" style={{ color: "var(--text-subtle)", textDecoration: "none", fontSize: "0.75rem", fontWeight: 700 }}>TERMS OF SERVICE</a>
